@@ -3,9 +3,9 @@
 html,
 body {
   font-family: "Poppins", sans-serif;
-  color: #23216d;
+  color: rgb(10, 9, 32);
   font-size: 1rem;
-  background-color: #ff0000;
+  background-color: rgb(10, 9, 32);
   margin: 0;
   padding: 0;
   text-align: center;
