@@ -1,0 +1,94 @@
+.menu {
+
+    background-color: white;
+    
+    
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 0 5px;
+    
+}
+
+.url {
+    list-style-type: none;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+
+/** A voir si je trouver comment positionner correctement le pictograme svg a la bonne
+    taille et du bon côté.
+
+.buttonlogo {
+    max-width: 30px;
+    max-height: 30px;
+
+}
+
+**/
+
+.mcl {
+    
+    flex-grow: -1;
+    height: 66px;
+    width: 66px;
+    padding: 10px;
+}
+
+.navtitle {
+    flex-grow: 2;
+    font-size: 1rem;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    align-items: center;
+    
+    
+}
+
+.website, .supportmail {
+    
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+
+
+.website:hover, .supportmail:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #ff0000;
+   
+    transition: ease-in-out 0.32s;
+    box-shadow: 1px 1px 1px #24216d6b;
+}
+
+.website {
+    color: #23216d;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+
+.supportmail {
+    list-style-type: none;
+    border-radius: 25px 25px 25px 25px;
+    color: #23216d;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
