@@ -1,26 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap");
 
 .s-bartitle {
-    color: white;
-    text-transform: uppercase;
-    margin-top: 40px;
-    padding: 40px;
-    font-size: 2rem;
+  color: #e0e0e0;
+  text-transform: uppercase;
+  margin-top: 40px;
+  padding: 40px;
+  font-size: 2.4rem;
+}
+
+.s-bar {
+  display: inline-flex;
+  align-items: center;
+}
+
+.svgbtncfg {
+  display: inline-flex;
+}
+
+.btncfg {
+  display: flex;
+  align-items: center;
+}
+
+.loupe {
+  flex: 0 0 auto;
 }
 
 .container {
-    border-radius: 25px 25px 25px 25px;
-    padding: 10px;
-    background-color: #f1f1f1;
-    width: 600px;
-    border: 1px solid #ccc;
-    outline: none;
-
+  display: inline-flex;
+  border-width: 0;
+  width: 550px;
+  height: 30px;
+  background-color: #e0e0e0;
+  border-radius: 5px 0 0 5px;
+  padding: 10px;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  color: #24216d;
+  font-size: 20px;
+  text-align: left;
 }
- ::placeholder{
-    color: #24216d8f;
-    font-family: "Poppins", sans-serif;
- }
 
+::placeholder {
+  font-size: 20px;
+  text-align: left;
+  align-self: center;
+  color: #24216d8f;
+  font-family: "Poppins", sans-serif;
+  font-size: normal;
+  font-weight: lighter;
+}
+
+.loupe {
+  display: inline-flex;
+  align-items: center;
+  background-color: #e0e0e0;
+  padding: 10px;
+  width: 35px;
+  border-width: 0;
+  outline: none;
+  height: 50px;
+  border-radius: 0 5px 5px 0;
+}
+
+.svgicon {
+  /* Place the icon on the text baseline. */
+  position: relative;
+  padding-right: 10px;
+
+  /* Prevent the icon from shrinking inside a flex container. */
+  flex-shrink: 0;
+
+  /* Scale the icon to match the font-size of the parent element. */
+  height: 1.5em;
+  width: 1.5em;
+
+  /* Let the icon take whatever color the parent has. */
+  fill: #24216d8f;
+  /*
+     * If the icon is used on a link, which has a color transition,
+     * we can also use a transition on the fill value.
+    */
+  transition: fill 0.3s;
+}
+
+ul {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #e0e0e0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: large;
+}
+
+.articles {
+  padding: 50px;
+  margin: 50px;
+}
+
+.notes {
+  padding: 50px;
+  margin: 50px;
+}
