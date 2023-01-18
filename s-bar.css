@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap");
 
 .s-bartitle {
-  color: #e0e0e0;
+  color: #f0f0f0;
   text-transform: uppercase;
   margin-top: 40px;
   padding: 40px;
@@ -31,7 +31,7 @@
   border-width: 0;
   width: 550px;
   height: 30px;
-  background-color: #e0e0e0;
+  background-color: #f0f0f0;
   border-radius: 5px 0 0 5px;
   padding: 10px;
   outline: none;
@@ -45,7 +45,7 @@
   font-size: 20px;
   text-align: left;
   align-self: center;
-  color: #24216d8f;
+  color: #5654a18f;
   font-family: "Poppins", sans-serif;
   font-size: normal;
   font-weight: lighter;
@@ -54,7 +54,7 @@
 .loupe {
   display: inline-flex;
   align-items: center;
-  background-color: #e0e0e0;
+  background-color: #f0f0f0;
   padding: 10px;
   width: 35px;
   border-width: 0;
@@ -66,14 +66,17 @@
 .svgicon {
   /* Place the icon on the text baseline. */
   position: relative;
-  padding-right: 10px;
+  padding-right: 30px;
+  margin-right: 30px;
+  padding-top: 40px;
+  color: #5654a18f;
 
   /* Prevent the icon from shrinking inside a flex container. */
   flex-shrink: 0;
 
   /* Scale the icon to match the font-size of the parent element. */
-  height: 1.5em;
-  width: 1.5em;
+  height: 5em;
+  width: 5em;
 
   /* Let the icon take whatever color the parent has. */
   fill: #24216d8f;
