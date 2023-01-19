@@ -22,3 +22,29 @@ body {
 }
 
 
+.articles {
+  color: #f0f0f0;
+  margin: 40px 100px;
+  font-size: 2em;
+  padding: 40px 100px;
+}
+
+.notes {
+  color: #f0f0f0;
+  margin: 40px 100px;
+  font-size: 2em;
+  padding: 40px 100px;
+}
+
+.sections {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px 500px;
+  padding: 0;
+}
+
+.artclimg {
+  filter: white(100%);
+}
