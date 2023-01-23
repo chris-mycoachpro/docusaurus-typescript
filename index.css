@@ -5,7 +5,7 @@ body {
   font-family: "Poppins", sans-serif;
   color: rgb(10, 9, 32);
   font-size: 1rem;
-  background-color: rgb(10, 9, 32);
+  background-color: rgb(21, 19, 70);
   margin: 0;
   padding: 0;
   text-align: center;
@@ -67,6 +67,22 @@ h3 {
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  margin: 20px 300px;
+  margin: 20px 400px;
   padding: 20px 100px;
 }
+
+footer {
+  background-color: white;
+}
+
+.footerlogo {
+  width: 250px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
+
