@@ -8,7 +8,7 @@
 .navbar {
     display: flex;
     align-items: center;
-    height: 65px;
+    max-height: 65px;
     padding: 0 5px;
     
 }
@@ -41,7 +41,7 @@
     flex-grow: -1;
     height: 60px;
     width: 60px;
-    padding: 0px;
+    padding: 0px 10px;
     
 }
 
@@ -94,4 +94,87 @@
     padding: 10px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .menu {
+        background-color: transparent;
+    }
+
+    .navbar {
+        max-height: 90px;
+        padding: 1px;
+    }
+
+    .mcl, .BDC {
+        justify-content: space-between;
+    }
+    
+    .navtitle {
+        flex-grow: 1;
+        padding: 10px 10px 10px 10px;
+        margin: 0;
+        max-height: 60px;
+        align-items: center;
+        
+    }
+    .BDC {
+        margin: auto;
+        align-items: center;
+        text-align: left;
+        font-size: 1.3rem;
+        color: #f0f0f0;
+    }
+
+    .url {
+        flex-grow: 2;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 0px 20px;
+        margin: 0 20px;
+    }
+
+    .website, .supportmail {
+        margin: auto;
+        background-color: #151346;
+        color: #f0f0f0;
+        font-size: 0.8rem;
+        text-overflow: ellipsis;
+        white-space: nowrap;   
+    }
+
+    .website:hover, .supportmail:hover {
+        cursor: pointer;
+        color: #151346;
+        background-color: white;
+        transition: ease-in-out 300ms;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width:1189px) {
+    .navtitle {
+        flex-grow: 1;
+    }
+    .BDC {
+        margin: auto;
+        align-items: center;
+        text-align: left;
+        font-size: 1.9rem;
+    }
+    .url {
+        flex-grow: 2;
+        justify-content: space-around;
+
+        padding: 0px 20px;
+        margin: 0 20px;
+    }
+    .website, .supportmail {
+        margin: auto;
+
+        color: #151346;
+        font-size: 0.8rem;
+        text-overflow: ellipsis;
+        white-space: nowrap;   
+    }
 }

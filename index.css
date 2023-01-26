@@ -67,8 +67,8 @@ h3 {
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  margin: 20px 400px;
-  padding: 20px 100px;
+  margin: 20px 300px;
+  padding: 20px 0px;
 }
 
 footer {
@@ -90,8 +90,6 @@ footer {
   display: flex;
   justify-content: center;
   list-style-type: none;
-  color:#0a0920 !important; 
-
   padding: 0 25px;
   margin: 25px 25px;
 }
@@ -105,4 +103,8 @@ footer {
   text-decoration: none;
   color: #0a0920;
   font-size: 16px;
+}
+
+@media screen and (max-width: 900px) {
+  
 }
