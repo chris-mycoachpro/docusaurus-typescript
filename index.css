@@ -9,6 +9,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  overflow: auto;
 }
 
 a {
@@ -58,7 +59,6 @@ h3 {
 
 .articles:hover {
   transition: ease-in-out 1ms;
-
 }
 
 .sections {
@@ -96,7 +96,6 @@ footer {
 
 .footer-links li {
   margin: 0 25px;
-
 }
 
 .footer-links a {
@@ -104,7 +103,64 @@ footer {
   color: #0a0920;
   font-size: 16px;
 }
+/* RESPONSIVE FAQ + NOTES + FOOTER */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 699px) {
+  .direction {
+    margin: 10px 0;
+  }
+   .articles {
+
+    text-decoration: none;
+    align-self: auto;
+    color: #f0f0f0;
+    font-size: 0.9em;
+  }
+
+  .sections {
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 50px;
+    padding: 0;
+
+  }
   
+  .features {
+
+    color: #f0f0f0;
+    align-self: center;
+    align-items: center;
+    font-size: 0.9em;
+  }
+  
+  .features,
+  .articles {
+    margin: 0;
+    border-width: 2px;
+    width: auto;
+    /**flex: 0 0 auto;**/
+    padding: 0;
+    border: none;
+    cursor: pointer;
+  }
+
+  .artclimg, .notesimg {
+    height: 70%;
+    width: 70%;
+
+  }
+
+  .footer-links {
+    list-style-type: square;
+    flex-direction: column;
+  }
 }
+
+
+
+
+
+
+
+
+

@@ -26,11 +26,6 @@ h2 {
   align-items: center;
 }
 
-.loupe {
-  flex: 0 0 auto;
-  cursor: pointer;
-}
-
 .container {
   display: inline-flex;
   border-width: 0;
@@ -65,6 +60,8 @@ h2 {
   outline: none;
   height: 50px;
   border-radius: 0 30px 30px 0;
+  flex: 0 0 auto;
+  cursor: pointer;
 }
 
 .svgicon {
@@ -91,3 +88,59 @@ h2 {
   transition: fill 0.3s;
 }
 
+@media screen and (max-width: 699px) {
+  .s-bartitle {
+    color: #f0f0f0;
+    text-transform: uppercase;
+    margin-top: 0;
+    padding: 0;
+    font-size: 0.9rem;
+  }
+
+  .container {
+    border-radius: 0;
+    display: inline-flex;
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+    border: solid;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: #f0f0f0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    color: #f0f0f0;
+  }
+
+  .loupe {
+    background-color: transparent;
+    align-items: center;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .svgicon {
+    /* Place the icon on the text baseline. */
+    align-items: left;
+    align-self: flex-start;
+    padding: 0;
+    fill: #f0f0f0;
+    transition: fill 0.3s;
+  }
+ 
+
+  ::placeholder {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: left;
+    align-self: center;
+    color: #afadf5a1;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
+  }
+}
