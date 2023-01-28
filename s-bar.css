@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap");
 
-h2 {
+h4 {
   margin-top: 50px;
 }
 
@@ -89,12 +89,18 @@ h2 {
 }
 
 @media screen and (max-width: 699px) {
+
+  h4 {
+    margin: 20px;
+    font-size: 1.2rem;
+  }
+
   .s-bartitle {
     color: #f0f0f0;
     text-transform: uppercase;
     margin-top: 0;
     padding: 0;
-    font-size: 0.9rem;
+
   }
 
   .container {
@@ -103,7 +109,7 @@ h2 {
     width: 300px;
     height: 30px;
     background-color: transparent;
-    border: solid;
+    border: solid 1px;
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
@@ -138,7 +144,7 @@ h2 {
     font-size: 20px;
     text-align: left;
     align-self: center;
-    color: #afadf5a1;
+    color: #afadf56b;
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
     font-weight: lighter;

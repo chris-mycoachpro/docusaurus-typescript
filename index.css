@@ -109,8 +109,7 @@ footer {
   .direction {
     margin: 10px 0;
   }
-   .articles {
-
+  .articles {
     text-decoration: none;
     align-self: auto;
     color: #f0f0f0;
@@ -118,36 +117,34 @@ footer {
   }
 
   .sections {
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
-    margin: 0 50px;
+    margin: 40px 0;
     padding: 0;
-
   }
-  
-  .features {
 
+  .features {
     color: #f0f0f0;
     align-self: center;
     align-items: center;
     font-size: 0.9em;
   }
-  
+
   .features,
   .articles {
     margin: 0;
     border-width: 2px;
     width: auto;
     /**flex: 0 0 auto;**/
-    padding: 0;
+    padding: 0 10px;
     border: none;
     cursor: pointer;
   }
 
-  .artclimg, .notesimg {
-    height: 70%;
-    width: 70%;
-
+  .artclimg,
+  .notesimg {
+    height: 80%;
+    width: 80%;
   }
 
   .footer-links {
@@ -155,12 +152,3 @@ footer {
     flex-direction: column;
   }
 }
-
-
-
-
-
-
-
-
-
