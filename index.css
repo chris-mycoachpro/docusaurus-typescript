@@ -103,9 +103,16 @@ footer {
   color: #0a0920;
   font-size: 16px;
 }
+
+.footer-links img {
+  height: 27px;
+}
 /* RESPONSIVE FAQ + NOTES + FOOTER */
 
 @media screen and (max-width: 699px) {
+
+
+
   .direction {
     margin: 10px 0;
   }
@@ -113,7 +120,7 @@ footer {
     text-decoration: none;
     align-self: auto;
     color: #f0f0f0;
-    font-size: 0.9em;
+    font-size: 1.1em;
   }
 
   .sections {
@@ -127,7 +134,7 @@ footer {
     color: #f0f0f0;
     align-self: center;
     align-items: center;
-    font-size: 0.9em;
+    font-size: 1.1em;
   }
 
   .features,
@@ -148,7 +155,11 @@ footer {
   }
 
   .footer-links {
-    list-style-type: square;
-    flex-direction: column;
+    list-style-type: none;
+    flex-direction: row;
+  }
+
+  .footerweblink {
+    display: none;
   }
 }

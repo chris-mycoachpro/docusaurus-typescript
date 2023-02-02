@@ -72,6 +72,8 @@ h2:hover {
 
 @media screen and (max-width: 699px) {
 
+
+
   .url img {
     display: flex;
   }
@@ -112,7 +114,7 @@ h2:hover {
 
   @media screen and (max-width: 700px) and (max-width: 900px) {
     .menu {
-      background-color: white;
+      background-color: transparent;
     }
 
     .navbar {
@@ -125,7 +127,7 @@ h2:hover {
       justify-content: space-between;
       text-align: center;
       align-items: center;
-    }
+     }
 
     .navtitle {
       display: flex;
@@ -139,7 +141,7 @@ h2:hover {
       align-items: center;
       text-align: left;
       font-size: 1.5rem;
-      color: #151346;
+      color: white;
     }
 
     .website:hover,
